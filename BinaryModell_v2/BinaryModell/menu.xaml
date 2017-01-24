@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="BinaryModell.menu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="350" d:DesignWidth="525">
+    <Grid Name="menuGrid" Background="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Name="testButt" Grid.Row="2" Margin="50" Click="testButt_Click">
+            <Viewbox>
+                <TextBlock Text="Test" />
+            </Viewbox>
+        </Button>
+
+        <Button Name="examButt" Grid.Row="2" Grid.Column="1" Margin="50" Click="examButt_Click">
+            <Viewbox>
+                <TextBlock Text="Exam" />
+            </Viewbox>
+        </Button>
+        <Grid Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Viewbox Grid.ColumnSpan="3" Margin="50">
+                <TextBlock Text="Binary Game" />
+            </Viewbox>
+            <Button Grid.Column="3" Margin="125,25,25,75">
+                <Viewbox>
+                    <TextBlock Text="?" />
+                </Viewbox>
+            </Button>
+        </Grid>
+        <StackPanel Grid.Row="1" VerticalAlignment="Bottom" Margin="50,0,0,0">
+            <Viewbox>
+                <RadioButton Content="Decimal till binär" ></RadioButton>
+            </Viewbox>
+            <Viewbox>
+                <RadioButton Content="Binär till decimal"></RadioButton>
+            </Viewbox>
+        </StackPanel>
+    </Grid>
+</UserControl>
