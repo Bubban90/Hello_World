@@ -1,0 +1,181 @@
+﻿<Window x:Class="BinaryModell.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:BinaryModell"
+        Title="MainWindow" Height="612" Width="1024">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+        </Grid>
+        <Grid Name="menyGrid" Background="LightGray">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Name="testButt" Grid.Row="2" Margin="50" Click="testButt_Click">
+                <Viewbox>
+                    <TextBlock Text="Test" />
+                </Viewbox>
+            </Button>
+
+            <Button Name="examButt" Grid.Row="2" Grid.Column="1" Margin="50" Click="examButt_Click">
+                <Viewbox>
+                    <TextBlock Text="Exam" />
+                </Viewbox>
+            </Button>
+            <Grid Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Viewbox Grid.ColumnSpan="3" Margin="50">
+                    <TextBlock Text="Meny" />
+                </Viewbox>
+                <Button Grid.Column="3" Margin="125,25,25,75">
+                    <Viewbox>
+                        <TextBlock Text="?" />
+                    </Viewbox>
+                </Button>
+            </Grid>
+            <StackPanel Grid.Row="1" VerticalAlignment="Bottom" Margin="50,0,0,0">
+                <Viewbox>
+                    <RadioButton Content="Decimal till binär" ></RadioButton>
+                </Viewbox>
+                <Viewbox>
+                    <RadioButton Content="Binär till decimal"></RadioButton>
+                </Viewbox>
+            </StackPanel>
+        </Grid>
+        <Grid Name="examGrid" Background="LightGray" Visibility="Visible">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Rectangle Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" Stroke="Gray" Fill="Transparent"></Rectangle>
+            <Grid Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Viewbox>
+                    <TextBlock>Exam</TextBlock>
+                </Viewbox>
+            </Grid>
+
+            <Rectangle Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Stroke="Gray" Fill="Transparent"></Rectangle>
+            <Grid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25*"></RowDefinition>
+                    <RowDefinition Height="75*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Viewbox>
+                    <TextBlock VerticalAlignment="Top" Text="Question"></TextBlock>
+                </Viewbox>
+                <Viewbox Grid.Row="1">
+                    <TextBlock Name="examQuestion" Text="1001" Width="100" TextAlignment="Center"></TextBlock>
+                </Viewbox>
+            </Grid>
+            <Rectangle Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2" Stroke="Gray" Fill="Transparent"></Rectangle>
+            <Grid Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25*"></RowDefinition>
+                    <RowDefinition Height="75*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Viewbox>
+                    <TextBlock VerticalAlignment="Top" Text="Answer"></TextBlock>
+                </Viewbox>
+                <Viewbox Grid.Row="1">
+                    <TextBox Name="answerBox" Text="" Width="100"></TextBox>
+                </Viewbox>
+            </Grid>
+
+            <Rectangle Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Stroke="Gray" Fill="Transparent" Margin="-5,0,5,0"></Rectangle>
+            <Viewbox Grid.Row="3" Grid.Column="0" VerticalAlignment="Center"
+                 HorizontalAlignment="Center" Grid.ColumnSpan="2" Grid.RowSpan="1">
+                <Button Margin="2" Background="Wheat" Name="menyBExam" Click="menyBExam_Click">Meny</Button>
+            </Viewbox>
+
+            <Rectangle Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="2" Stroke="Gray" Fill="Transparent" Margin="-5,0,5,0"></Rectangle>
+            <Viewbox Grid.Row="3" Grid.Column="2" VerticalAlignment="Center"
+                 HorizontalAlignment="Center" Grid.ColumnSpan="2" Grid.RowSpan="1">
+                <Button Margin="2" Background="Wheat" Name="TurnIn" Click="TurnIn_Click_1" Content="Turn In"></Button>
+            </Viewbox>
+            
+            <Viewbox Grid.Row="2" Grid.Column="2" Stretch="Fill">
+                <Button IsEnabled="False" Name="previousButt" Content="Previous" Click="previousButt_Click"></Button>
+            </Viewbox>
+            
+            <Viewbox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                <Label Name="questionNumber" Content="1/10"></Label>
+            </Viewbox>
+            
+            <Viewbox Grid.Row="2" Grid.Column="3" Stretch="Fill">
+                <Button IsEnabled="True" Name="nextButt" Content="Next" Click="nextButt_Click"></Button>
+            </Viewbox>
+        </Grid>
+        <Grid Name="testGrid" Background="LightGray" Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="10*" />
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="25*"/>
+                <RowDefinition Height="25*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="33*"/>
+                <ColumnDefinition Width="33*"/>
+                <ColumnDefinition Width="33*"/>
+            </Grid.ColumnDefinitions>
+            <Viewbox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="0">
+                <TextBlock Grid.Row="0" Grid.Column="1" Name="Test" Grid.ColumnSpan="2" >Test</TextBlock>
+            </Viewbox>
+
+            <Viewbox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" >
+                <TextBlock Name="Questions" Grid.Column="0" Grid.ColumnSpan="2" Margin="5">Fråga</TextBlock>
+            </Viewbox>
+            <Viewbox Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                <TextBlock Text="1100" Name="binaryQuestions" Margin="10"></TextBlock>
+            </Viewbox>
+
+            <Viewbox Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" >
+                <TextBlock Name="response" Grid.Row="1" Grid.Column="2" Margin="5">Svar</TextBlock>
+            </Viewbox>
+            <TextBox Grid.Row="2" Grid.Column="2" Name="answer" Margin="10" PreviewKeyDown="enter_Button"></TextBox>
+
+            <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" Name="textRuta" Padding="20" Margin="10"  
+         Background="AliceBlue">Rätt Svar</Label>
+            <Viewbox Grid.Row="4" Grid.Column="2" >
+                <Button Name="turnIn" Content="Next Question" BorderThickness="1" Margin="5" Click="turnIn_Click"></Button>
+            </Viewbox>
+            <Viewbox Grid.Row="4" Grid.Column="1" >
+                <Button Content="Reset" BorderThickness="1" Margin="5" Click="resetButt_Click"></Button>
+            </Viewbox>
+            <Viewbox Grid.Row="4" Grid.Column="0">
+                <Button Content="Meny" BorderThickness="1" Margin="5" Name="menyBT" Click="menyBT_Click"></Button>
+            </Viewbox>
+
+        </Grid>
+    </Grid>
+</Window>

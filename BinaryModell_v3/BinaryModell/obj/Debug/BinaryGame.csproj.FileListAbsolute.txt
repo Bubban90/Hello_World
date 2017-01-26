@@ -1,0 +1,55 @@
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\bin\Debug\BinaryModell.exe.config
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\bin\Debug\BinaryModell.exe
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\bin\Debug\BinaryModell.pdb
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\MainWindow.baml
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\MainWindow.g.cs
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\App.g.cs
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\BinaryModell_MarkupCompile.cache
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\BinaryModell.g.resources
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\BinaryModell.Properties.Resources.resources
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\BinaryGame.csproj.GenerateResource.Cache
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\BinaryModell.exe
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\BinaryModell.pdb
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\BinaryGame.csprojResolveAssemblyReference.cache
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\menu.baml
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\menu.g.cs
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\BinaryModell_MarkupCompile.lref
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\testWindow.baml
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\testWindow.g.cs
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\examWindow.baml
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell\BinaryModell\obj\Debug\examWindow.g.cs
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\bin\Debug\BinaryModell.exe.config
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryModell.exe
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryModell.pdb
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\bin\Debug\BinaryModell.exe
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\bin\Debug\BinaryModell.pdb
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryGame.csprojResolveAssemblyReference.cache
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\examWindow.baml
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\menu.baml
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\testWindow.baml
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\examWindow.g.cs
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\MainWindow.g.cs
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\menu.g.cs
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\testWindow.g.cs
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\App.g.cs
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryModell_MarkupCompile.cache
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryModell_MarkupCompile.lref
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\MainWindow.baml
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryModell.g.resources
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryModell.Properties.Resources.resources
+C:\Users\Fredr\Desktop\C# Labbar\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryGame.csproj.GenerateResource.Cache
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\bin\Debug\BinaryModell.exe.config
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryModell.exe
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryModell.pdb
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\bin\Debug\BinaryModell.exe
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\bin\Debug\BinaryModell.pdb
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryGame.csprojResolveAssemblyReference.cache
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\MainWindow.g.cs
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\App.g.cs
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryModell_MarkupCompile.cache
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryModell_MarkupCompile.lref
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\MainWindow.baml
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryModell.g.resources
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryModell.Properties.Resources.resources
+C:\Users\Fredrik§\OneDrive\BinaryGame\BinaryModell_v2\BinaryModell\obj\Debug\BinaryGame.csproj.GenerateResource.Cache
